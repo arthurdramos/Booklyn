@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans';
+    color:#ffffff;
+    width: 100%;
+    height: 100%;
+    background-color: #100e16;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh; 
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 {
+    color: #FF725E;
+    text-transform: uppercase;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+
+}
+
+.card-login > h1 {
+    color: #00ff88;
+
+
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.texfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px; 
+
+}
+
+.texfield > label::placeholder {
+    color: #f0ffff94;
+    margin-bottom: 10px; 
+
+}
+
+.btn-login {
+    width: 100%;
+    padding: 20px 0px;
+    margin: 25px 0px;
+    border: none;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    outline: none; 
+    text-transform: uppercase;
+    color: #423c3c;
+    background:#FF725E;
+    cursor: pointer;
+    
+}
+
+
+.default-text{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+a:link {
+    color: #FF725E;
+   }
+   
+   a:hover {
+    color: whitesmoke;
+   }
+
+   a:visited{
+    color:#FF725E;
+   }
+   
+   .center-text{
+    text-align: center;
+   }
+
+.containers{
+    background-color: #00ff88;
+    color: #00000056
+}
+
+.header1 {
+    background-color: #1a1625;
+    height: 30px;
+    border-color: #00ff88;
+}
+
+.geral {
+    background-color: #2f2841;
+}
+
+.lista-categorias{
+    border: none;
+    margin: 0;
+}
+
+.logout{
+    float: right;
+    padding: 2px 10px;
+    margin: 4px;
+
+}
+
+.boas-vindas{
+    color:white;
+    margin:0;
+    padding:0;
+    border:0;
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.logo-header{
+    background-color: #100e16;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content{
+    background-color: #100e16;
+    margin:15px;
+    padding:0;
+    border:0;
+
+}
+
+.menu-principal{
+    margin:0;
+    padding:0;
+    border:0;
+    background-color: #100e16;
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input.searcher{
+    margin: 0 auto;
+    border: medium none;
+    color: #333333;
+    display: block;
+    margin: 0;
+    outline: 0 none;
+    align-content: center;
+    height: 30px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.flexer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+}
+
+.btn-searcher{
+    padding: 10px;
+}
+
